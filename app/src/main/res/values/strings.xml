@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Notification Maker</string>
+
+    <string name="channel_name">Notification Maker Notifications</string>
+    <string name="channel_description">Send local notifications</string>
+
+    <string name="fab_description">Send</string>
+</resources>
