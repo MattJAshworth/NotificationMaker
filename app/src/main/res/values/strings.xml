@@ -5,4 +5,16 @@
     <string name="channel_description">Send local notifications</string>
 
     <string name="fab_description">Send</string>
+
+    <string name="about">About:</string>
+    <string name="about_desc">Notification Maker by MattJAshworth\n\nDeveloped while working on a Notification Manager, Notification Maker seemed like a good way of creating notifications
+    of varying types quickly and easily.\n\nFeatures include:\n- Custom Title\n- Custom Message\n- Custom Icon\n- Custom large Icon\n- Custom Image\n- Custom Action Buttons</string>
+
+    <string name="action_reset">Reset Fields</string>
+    <string name="action_twitter">Twitter</string>
+    <string name="action_Instagram">Instagram</string>
+
+    <string name="snackbar_empty_notification">Empty Notification! Send Anyway?</string>
+    <string name="snackbar_yes">Yes</string>
+    <string name="snackbar_no">No</string>
 </resources>

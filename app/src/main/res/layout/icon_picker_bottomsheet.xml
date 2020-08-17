@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomsheetLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC">
+
+    <ImageButton
+        android:id="@+id/img_Alarm"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/img_Fav"
+        app:layout_constraintEnd_toStartOf="@+id/img_Battery"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_alarm_black_icon" />
+
+    <ImageButton
+        android:id="@+id/img_Battery"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/img_Key"
+        app:layout_constraintEnd_toStartOf="@+id/img_Camera"
+        app:layout_constraintStart_toEndOf="@+id/img_Alarm"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_battery_black_icon" />
+
+    <ImageButton
+        android:id="@+id/img_Camera"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/img_Message"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_Battery"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_camera_black_icon" />
+
+    <ImageButton
+        android:id="@+id/img_Fav"
+        android:layout_width="0dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/img_Phone"
+        app:layout_constraintEnd_toStartOf="@+id/img_Key"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_Alarm"
+        app:srcCompat="@drawable/ic_favorite_black_icon" />
+
+    <ImageButton
+        android:id="@+id/img_Key"
+        android:layout_width="0dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toTopOf="@+id/img_Send"
+        app:layout_constraintEnd_toStartOf="@+id/img_Message"
+        app:layout_constraintStart_toEndOf="@+id/img_Fav"
+        app:layout_constraintTop_toBottomOf="@+id/img_Battery"
+        app:srcCompat="@drawable/ic_key_black_icon" />
+
+    <ImageButton
+        android:id="@+id/img_Message"
+        android:layout_width="0dp"
+        android:layout_height="125dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/img_Pause"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_Key"
+        app:layout_constraintTop_toBottomOf="@+id/img_Camera"
+        app:srcCompat="@drawable/ic_message_black_icon" />
+
+    <ImageButton
+        android:id="@+id/img_Phone"
+        android:layout_width="0dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_Send"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_Fav"
+        app:srcCompat="@drawable/ic_phone_black_icon" />
+
+    <ImageButton
+        android:id="@+id/img_Send"
+        android:layout_width="0dp"
+        android:layout_height="125dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_Pause"
+        app:layout_constraintStart_toEndOf="@+id/img_Phone"
+        app:layout_constraintTop_toBottomOf="@+id/img_Key"
+        app:srcCompat="@drawable/ic_send_black_icon" />
+
+    <ImageButton
+        android:id="@+id/img_Pause"
+        android:layout_width="0dp"
+        android:layout_height="125dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_Send"
+        app:layout_constraintTop_toBottomOf="@+id/img_Message"
+        app:srcCompat="@drawable/ic_pause_black_icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
