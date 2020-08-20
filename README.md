@@ -18,6 +18,8 @@ This is an Android Studio Project. The project can be built within Android Studi
 * Custom Notification Message
 * Custom Small Notification Icon (set of 9 to choose from)
 * Custom Large Notification Icon (set of 1045 to choose from)
+* Add image from gallery
+* Custom Intent Action Buttons
 
 ## Tech Stack
 * Android Studio IDE
