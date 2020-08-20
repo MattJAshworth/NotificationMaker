@@ -4,10 +4,7 @@
 Notification Maker is a little project I started work on during the development of NotificationPro, a Notification Manager. I needed a fast and easy way to make notifications of
 various types. Such as; ones with images, different icons, different buttons. 
 
-
-<p float="left">
-  <https://raw.githubusercontent.com/MattJAshworth/mattjashworth.github.io/537708d0612cc8c9c13e38c58e51651463e7a471/assets/images/screenshots/Notification.jpg" />
-</p>
+<img src="https://raw.githubusercontent.com/MattJAshworth/mattjashworth.github.io/537708d0612cc8c9c13e38c58e51651463e7a471/assets/images/screenshots/Notification.jpg" width="40%" alt="Features"/>
 
 ## Usage
 
